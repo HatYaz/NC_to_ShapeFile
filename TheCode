@@ -42,8 +42,8 @@ def netcdf_to_shapefile(netcdf_file, shapefile_output, var_name, lon_name='longi
     print(f"Shapefile saved to {shapefile_output}")
 
 # Correct file paths (use raw strings r"..." to avoid path issues)
-input = r"C:\Users\HP\Documents\Python Scripts\20250210T00Z_MSC_CIOPS-East_SeaWaterVelocityX_DBS-0.5m_LatLon0.03x0.02_PT000H.nc"
-output = r"C:\Users\HP\Documents\Python Scripts\shape.shp"
+input = "Ypur inputr NC file here"
+output = "your output shape file name here with *.shp extension"
 
 # Call function
 netcdf_to_shapefile(input, output, 'vozocrtx')
